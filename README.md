@@ -6,12 +6,18 @@ delret
 
 chmod 755 delret
 
-chmod 755 gitconfig_add
 
 
 после чего можно использовать 
 
 ./delret <имя файла>
 
+
+после скачки файла gitconfig_add сделать его исполняемым
+
+chmod 755 gitconfig_add
+
+#Добавить удобные alias для git в ~/.gitconfig
+#Делать только один раз иначе будет дубляж
 ./gitconfig_add
 
