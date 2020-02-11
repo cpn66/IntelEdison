@@ -1,0 +1,10 @@
+#!/bin/bash
+echo "">>~/.gitconfig
+echo "[alias]">>~/.gitconfig
+echo "  co = checkout">>~/.gitconfig
+echo "  ci = commit">>~/.gitconfig
+echo "  st = status">>~/.gitconfig
+echo "  br = branch">>~/.gitconfig
+echo "  hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short">>~/.gitconfig
+echo "  type = cat-file -t">>~/.gitconfig
+echo "  dump = cat-file -p">>~/.gitconfig
